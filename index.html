@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keepsake</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&amp;family=Open+Sans:wght@300;400;700&amp;family=Oswald:wght@300;400;700&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+<header class="header">
+<div class="container header-inner">
+<a class="logo" href="#home">
+<span>K</span>eepsake</a>
+<nav class="navigation" aria-label="Main navigation">
+<a href="#home" aria-current="page">Home</a>
+<a href="#about">About us</a>
+<a href="#portfolio">Our works</a>
+<a href="#blog">Journal</a>
+<a href="#contact">Contact</a>
+<a class="button heart" href="#portfolio" aria-label="Favourites">
+<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+<path d="M12 21 3 12C-2 5 7 1 12 8 17 1 26 5 21 12Z"/>
+</svg>
+</a>
+</nav>
+<button class="burger" popovertarget="mobile-menu" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+<span>
+</span>
+<span>
+</span>
+<span>
+</span>
+</button>
+</div>
+<nav id="mobile-menu" popover aria-label="Mobile navigation">
+<button class="menu-close" popovertarget="mobile-menu" popovertargetaction="hide" aria-label="Close menu" aria-expanded="true" aria-controls="mobile-menu">×</button>
+<a href="#home" aria-current="page">Home</a>
+<a href="#about">About us</a>
+<a href="#portfolio">Our works</a>
+<a href="#blog">Journal</a>
+<a href="#contact">Contact</a>
+<a class="button" href="#contact">Contact us</a>
+<a class="button secondary" href="#portfolio">Favourites</a>
+<div class="menu-contacts"><p>Say hello</p><p><a href="mailto:hello@keepsake.studio">hello@keepsake.studio</a></p><p><a href="tel:+442079460000">+44 20 7946 0000</a></p><div class="social"><a href="https://www.rssboard.org/" aria-label="RSS">rss</a><a href="https://www.facebook.com/" aria-label="Facebook">f</a><a href="https://twitter.com/" aria-label="Twitter">tw</a><a href="https://dribbble.com/" aria-label="Dribbble">dr</a><a href="https://www.pinterest.com/" aria-label="Pinterest">p</a></div></div>
+</nav>
+</header>
+<main>
+<section id="home" class="hero">
+<div class="container">
+<h1>We're Keepsake, a digital &amp; branding agency</h1>
+<p>Specializing in web design, poster, motion video, based in London. We love to turn ideas into beautiful things.</p>
+<div class="actions">
+<a class="button" href="#portfolio">See our works</a>
+<a class="button secondary" href="#contact">Get in touch</a>
+</div>
+</div>
+</section>
+<section id="portfolio" class="section container">
+<h2>Our awesome works</h2>
+<input class="filter-input" type="radio" name="filter" id="all" checked>
+<input class="filter-input" type="radio" name="filter" id="branding" >
+<input class="filter-input" type="radio" name="filter" id="identity" >
+<input class="filter-input" type="radio" name="filter" id="print" >
+<input class="filter-input" type="radio" name="filter" id="web" >
+<input class="filter-input" type="radio" name="filter" id="motion" >
+<div class="filters">
+<label for="all">All</label>
+<label for="branding">Branding</label>
+<label for="identity">Identity</label>
+<label for="print">Print</label>
+<label for="web">Web</label>
+<label for="motion">Motion</label>
+</div>
+<input class="filter-input" type="checkbox" id="more">
+<div class="works">
+<article class="work" data-category="branding">
+<a href="#contact">
+<img src="images/work-1.webp" width="715" height="564" loading="lazy" alt="Clothes Tag">
+<span class="overlay">
+<span class="plus">+</span>
+<strong>Clothes Tag</strong>
+<span class="line">
+</span>
+<small>Branding</small>
+</span>
+</a>
+</article>
+<article class="work" data-category="print">
+<a href="#contact">
+<img src="images/work-2.webp" width="715" height="564" loading="lazy" alt="Piece Paper">
+<span class="overlay">
+<span class="plus">+</span>
+<strong>Piece Paper</strong>
+<span class="line">
+</span>
+<small>Print</small>
+</span>
+</a>
+</article>
+<article class="work" data-category="identity">
+<a href="#contact">
+<img src="images/work-3.webp" width="715" height="564" loading="lazy" alt="Disk Cover">
+<span class="overlay">
+<span class="plus">+</span>
+<strong>Disk Cover</strong>
+<span class="line">
+</span>
+<small>Identity</small>
+</span>
+</a>
+</article>
+<article class="work" data-category="print">
+<a href="#contact">
+<img src="images/work-4.webp" width="715" height="564" loading="lazy" alt="Vol. 16">
+<span class="overlay">
+<span class="plus">+</span>
+<strong>Vol. 16</strong>
+<span class="line">
+</span>
+<small>Print</small>
+</span>
+</a>
+</article>
+<article class="work" data-category="web">
+<a href="#contact">
+<img src="images/work-5.webp" width="715" height="564" loading="lazy" alt="Profile UI">
+<span class="overlay">
+<span class="plus">+</span>
+<strong>Profile UI</strong>
+<span class="line">
+</span>
+<small>Web</small>
+</span>
+</a>
+</article>
+<article class="work" data-category="motion">
+<a href="#contact">
+<img src="images/work-6.webp" width="715" height="564" loading="lazy" alt="Panel Design">
+<span class="overlay">
+<span class="plus">+</span>
+<strong>Panel Design</strong>
+<span class="line">
+</span>
+<small>Motion</small>
+</span>
+</a>
+</article>
+<article class="work" data-category="branding">
+<a href="#contact">
+<img src="images/work-7.webp" width="715" height="564" loading="lazy" alt="WallSt.">
+<span class="overlay">
+<span class="plus">+</span>
+<strong>WallSt.</strong>
+<span class="line">
+</span>
+<small>Branding</small>
+</span>
+</a>
+</article>
+<article class="work" data-category="identity">
+<a href="#contact">
+<img src="images/work-8.webp" width="715" height="564" loading="lazy" alt="John Doe">
+<span class="overlay">
+<span class="plus">+</span>
+<strong>John Doe</strong>
+<span class="line">
+</span>
+<small>Identity</small>
+</span>
+</a>
+</article>
+<article class="work" data-category="branding">
+<a href="#contact">
+<img src="images/work-9.webp" width="715" height="564" loading="lazy" alt="Seal Fabric">
+<span class="overlay">
+<span class="plus">+</span>
+<strong>Seal Fabric</strong>
+<span class="line">
+</span>
+<small>Branding</small>
+</span>
+</a>
+</article>
+</div>
+<label class="button secondary load" for="more">
+<span>Load more works</span>
+<span>Show less</span>
+</label>
+</section>
+<section class="cta section">
+<div class="container">
+<h2>Would you love to work with us?</h2>
+<a class="button" href="#contact">
+<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+<rect x="2" y="4" width="20" height="16" rx="1"/>
+<path d="m2 5 10 8 10-8"/>
+</svg> Contact us</a>
+</div>
+</section>
+<section id="about" class="section container">
+<h2>What do we do</h2>
+<p class="section-intro">We are a small team of designers and developers, crafting delightful brand identities, digital products and moving images.</p>
+<div class="services">
+<article>
+<div class="service-icon"><svg aria-hidden="true" focusable="false" width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="96" height="96" rx="48" fill="#F0F3F4"/>
+<rect x="29" y="35" width="38" height="26" fill="#C9DCE8"/>
+<rect x="29" y="35" width="38" height="26" stroke="#5F6B78" stroke-width="4"/>
+<rect width="14" height="10" transform="translate(35 41)" fill="#7BC67E"/>
+</svg></div>
+<h3>Web design</h3>
+<p>Responsive sites and product pages that are clear, fast and easy to use.</p>
+</article>
+<article>
+<div class="service-icon"><svg aria-hidden="true" focusable="false" width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="96" height="96" rx="48" fill="#F0F3F4"/>
+<rect x="28" y="32" width="40" height="32" rx="6" fill="#5F6B78"/>
+<rect x="35" y="38" width="26" height="20" rx="3" fill="#9EC5E0"/>
+</svg></div>
+<h3>Motion video</h3>
+<p>Explainers, logo animations and simple motion pieces for digital campaigns.</p>
+</article>
+<article>
+<div class="service-icon"><svg aria-hidden="true" focusable="false" width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="96" height="96" rx="48" fill="#F0F3F4"/>
+<rect width="22" height="20" transform="translate(37 31)" fill="#F4C542"/>
+<rect x="27" y="47" width="42" height="18" rx="3" fill="#7A8590"/>
+</svg></div>
+<h3>Print design</h3>
+<p>Posters, packaging and stationery systems with a thoughtful visual direction.</p>
+</article>
+<article>
+<div class="service-icon"><svg aria-hidden="true" focusable="false" width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="96" height="96" rx="48" fill="#F0F3F4"/>
+<path d="M48 63.3L45.535 61.09C36.78 53.27 31 48.17 31 42.05C31 36.95 35.08 32.7 40.35 32.7C43.24 32.7 46.13 34.06 48 36.27C49.87 34.06 52.76 32.7 55.65 32.7C60.92 32.7 65 36.95 65 42.05C65 48.17 59.22 53.27 50.465 61.09L48 63.3Z" fill="#F95858"/>
+</svg></div>
+<h3>Illustration</h3>
+<p>Custom illustrations and icon sets that add warmth and personality.</p>
+</article>
+</div>
+</section>
+<section class="container stats" aria-label="Statistics">
+<div>
+<strong>120+</strong>
+<p>Projects done</p>
+</div>
+<div>
+<strong>8</strong>
+<p>Years in craft</p>
+</div>
+<div>
+<strong>64</strong>
+<p>Happy clients</p>
+</div>
+<div>
+<strong>15</strong>
+<p>Design awards</p>
+</div>
+</section>
+<section class="section container">
+<h2>Clients &amp; kind words</h2>
+<p class="section-intro">Some of the teams that trust us with their brands and digital products.</p>
+<div class="clients">
+<span>NORDLY</span>
+<span>Halcyon</span>
+<span>ARCO</span>
+<span>pinewood</span>
+<span>VELA</span>
+<span>ostra</span>
+</div>
+<div class="testimonial">
+<span class="quote">“</span>
+<blockquote>Keepsake turned a vague brief into a visual system our whole team could rally around. Their process was clear, collaborative and genuinely enjoyable.</blockquote>
+<div class="avatar">OM</div>
+<strong>Olena Marchenko</strong>
+<p>Marketing Lead, Nordly</p>
+<div class="dots" aria-label="Slide 1 of 3">● ○ ○</div>
+</div>
+</section>
+<section id="blog" class="section container">
+<h2>From the journal</h2>
+<p class="section-intro">Notes on process, case studies and things that inspire us.</p>
+<div class="posts">
+<article class="post">
+<img src="images/blog-1.webp" width="300" height="300" loading="lazy" alt="Sollicitudin tortor inceptos">
+<div>
+<small>Oct 13, 2026 / Identity</small>
+<h3>Sollicitudin tortor inceptos</h3>
+<p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+<details>
+<summary>Read more</summary>
+<p>We explore how thoughtful design can make everyday experiences better.</p>
+</details>
+</div>
+</article>
+<article class="post">
+<img src="images/blog-2.webp" width="300" height="300" loading="lazy" alt="Amet inceptos fringilla fusce">
+<div>
+<small>Oct 23, 2026 / Branding</small>
+<h3>Amet inceptos fringilla fusce</h3>
+<p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+<details>
+<summary>Read more</summary>
+<p>We explore how thoughtful design can make everyday experiences better.</p>
+</details>
+</div>
+</article>
+<article class="post">
+<img src="images/blog-3.webp" width="300" height="300" loading="lazy" alt="Cursus malesuada justo">
+<div>
+<small>Sep 19, 2026 / Identity</small>
+<h3>Cursus malesuada justo</h3>
+<p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+<details>
+<summary>Read more</summary>
+<p>We explore how thoughtful design can make everyday experiences better.</p>
+</details>
+</div>
+</article>
+<article class="post">
+<img src="images/blog-4.webp" width="300" height="300" loading="lazy" alt="Ornare cursus bibendum purus">
+<div>
+<small>Sep 27, 2026 / Branding</small>
+<h3>Ornare cursus bibendum purus</h3>
+<p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+<details>
+<summary>Read more</summary>
+<p>We explore how thoughtful design can make everyday experiences better.</p>
+</details>
+</div>
+</article>
+</div>
+</section>
+</main>
+<footer id="contact">
+<div class="container">
+<div class="footer-top">
+<div class="footer-links">
+<div>
+<h3>Studio</h3>
+<a href="#about">About us</a>
+<a href="#portfolio">Our works</a>
+<a href="#blog">Journal</a>
+</div>
+<div>
+<h3>Services</h3>
+<a href="#about">Web design</a>
+<a href="#about">Motion video</a>
+<a href="#about">Print design</a>
+</div>
+</div>
+<div class="newsletter">
+<h3>Newsletter</h3>
+<p>Fresh case studies and design notes.</p>
+<form action="#subscribed">
+<div class="email-row">
+<label class="sr-only" for="email">Email address</label>
+<input id="email" type="email" placeholder="Your email address" required aria-describedby="email-error">
+<button class="button" type="submit">Subscribe</button>
+</div>
+<p id="email-error">Please enter a valid email address.</p>
+<label class="consent">
+<input type="checkbox" required> I agree to the privacy policy.</label>
+</form>
+<p id="subscribed" role="status">You're in! This is a demonstration; no email was sent.</p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 Keepsake. All rights reserved.</p>
+<div class="social">
+<a href="https://www.rssboard.org/" aria-label="RSS">rss</a>
+<a href="https://www.facebook.com/" aria-label="Facebook">f</a>
+<a href="https://twitter.com/" aria-label="Twitter">tw</a>
+<a href="https://dribbble.com/" aria-label="Dribbble">dr</a>
+<a href="https://www.pinterest.com/" aria-label="Pinterest">p</a>
+</div>
+</div>
+</div>
+</footer>
+<a class="back-top" href="#top" aria-label="Back to top">↑</a>
+</body>
+</html>
